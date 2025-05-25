@@ -119,8 +119,8 @@ def delete_product(id):
 app.register_blueprint(orders_bp)
 app.register_blueprint(auth_bp)
 
-#if __name__ == '__main__':
-    #app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
 
 
 
